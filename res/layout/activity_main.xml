@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_activity"
+    android:gravity="bottom|fill_vertical"
+    android:orientation="vertical" >
+
+    <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/news_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true" >
+        </LinearLayout>
+    </RelativeLayout> -->
+
+
+
+
+    <Button
+        android:id="@+id/button_login"
+        style="@style/mainActivityItem"
+        android:layout_marginTop="100dp"
+        android:text="@string/button_login" />
+
+    <Button
+        android:id="@+id/button_my_tickets"
+        style="@style/mainActivityItem"
+        android:text="@string/button_my_tickets"/>
+    
+    <Button
+        android:id="@+id/button_events_index"
+        style="@style/mainActivityItem"
+        android:text="@string/button_events_index" />
+
+    <Button
+        android:id="@+id/button_events_admin"
+        style="@style/mainActivityItem"
+        android:text="@string/button_events_admin" />
+
+</LinearLayout>

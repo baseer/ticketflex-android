@@ -1,0 +1,54 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+        <ImageView
+            android:id="@+id/eventThumbnail"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="6dp"
+                android:paddingTop="1dp"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="6dp"
+                android:textSize="15dp"
+                android:textColor="#777777" />            
+
+           <!-- <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8fbe00"
+                android:paddingLeft="6dp" 
+                android:paddingTop="1dp"
+                android:textSize="15dp" /> --> 
+                
+            <TextView 
+                android:id="@+id/startTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="6dp"
+                android:textSize="13dp"
+                android:textColor="#777777" />
+            
+        </LinearLayout>
+
+    </LinearLayout>

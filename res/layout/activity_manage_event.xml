@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main_manage_event"
+    android:layout_width="match_parent"
+    android:background="#e9e9e9"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <Button
+            android:id="@+id/button_add_image"
+            style="?android:attr/borderlessButtonStyle"
+            android:paddingLeft="65dp"
+            android:paddingRight="65dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#aaa"
+            android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/placeholder_name"
+                android:inputType="text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/start_date"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="@string/placeholder_start_date"
+                    android:inputType="date"
+                    android:onClick="showDatePickerDialog" />
+
+                <EditText
+                    android:id="@+id/start_time"
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="@string/placeholder_start_time"
+                    android:inputType="time"
+                    android:onClick="showTimePickerDialog" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/placeholder_location"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/placeholder_price"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/capacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/placeholder_capacity"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/placeholder_description"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#aaa"
+            android:gravity="center_vertical" />
+
+        <Button
+            android:id="@+id/button_create"
+            style="?android:attr/borderlessButtonStyle"
+            android:paddingLeft="90dp"
+            android:paddingRight="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

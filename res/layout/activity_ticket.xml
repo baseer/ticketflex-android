@@ -1,0 +1,164 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout_ticket"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9e9e9"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/event_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:id="@+id/buttons_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_sell_ticket"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:drawableLeft="@drawable/icon_sell_ticket"
+                android:paddingLeft="23dp"
+                android:paddingRight="23dp"
+                android:text="@string/button_sell_ticket" />
+
+            <View
+                android:id="@+id/vertical_divider"
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="#bbb" />
+
+            <Button
+                android:id="@+id/button_show_ticket"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:drawableLeft="@drawable/icon_show_ticket"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:text="@string/button_show_ticket" />
+
+            <Button
+                android:id="@+id/button_buy_ticket"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:drawableLeft="@drawable/icon_buy_ticket"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:text="@string/button_buy_ticket" />
+
+            <View
+                android:id="@+id/vertical_divider2"
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="#bbb" />
+
+            <Button
+                android:id="@+id/button_buy_existing_ticket"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:drawableLeft="@drawable/icon_buy_existing_ticket"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:text="@string/button_buy_existing_ticket" />
+
+            <Button
+                android:id="@+id/button_unsell_ticket"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:drawableLeft="@drawable/icon_buy_ticket"
+                android:paddingLeft="23dp"
+                android:paddingRight="23dp"
+                android:text="@string/button_unsell_ticket" />
+            
+            <Button
+                android:id="@+id/button_edit_event"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:drawableLeft="@drawable/icon_edit_event"
+                android:paddingLeft="75dp"
+                android:paddingRight="75dp"
+                android:text="@string/button_edit_event" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#aaa"
+            android:gravity="center_vertical" />
+
+        <!--
+            <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff" >
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/location"
+                style="@style/eventDetail"
+                android:textColor="#000088"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/start_time"
+                style="@style/eventDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/eventDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/capacity"
+                style="@style/eventDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/eventDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- </ScrollView> -->
+
+    </LinearLayout>
+
+</ScrollView>
