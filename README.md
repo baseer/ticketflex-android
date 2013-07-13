@@ -11,8 +11,8 @@ See section 8 of the documentation at http://ticketflex.baseersiddiqui.com/Ticke
 
 What is TicketFlex?
 -------------------
-TicketFlex for Android is an app that allows you to easily purchase tickets to your favorite events. It also ensures that you won’t be paying other ticket sellers a premium for tickets, just because you weren’t one of the early birds. TicketFlex also allows you to put your ticket up for sale, as long as your price is at most equal to the original ticket’s price. So, you can feel at ease if you’re no longer able to attend the event because chances are someone will buy your ticket. When you’re at the event, you can simply show the ticket’s QR code from your Android phone and be admitted into the event – no need for printing or picking up tickets.
-TicketFlex is also a very useful event organizing tool. Event organizers can view their guest list and see who has been admitted into the event and who has yet to arrive. Admitting a new arrival is as simple as scanning their QR code and pressing Admit. This also eliminates the need for a proprietary ticket-scanning device.
+<p>TicketFlex for Android is an app that allows you to easily purchase tickets to your favorite events. It also ensures that you won’t be paying other ticket sellers a premium for tickets, just because you weren’t one of the early birds. TicketFlex also allows you to put your ticket up for sale, as long as your price is at most equal to the original ticket’s price. So, you can feel at ease if you’re no longer able to attend the event because chances are someone will buy your ticket. When you’re at the event, you can simply show the ticket’s QR code from your Android phone and be admitted into the event – no need for printing or picking up tickets.</p>
+<p>TicketFlex is also a very useful event organizing tool. Event organizers can view their guest list and see who has been admitted into the event and who has yet to arrive. Admitting a new arrival is as simple as scanning their QR code and pressing Admit. This also eliminates the need for a proprietary ticket-scanning device.</p>
 
 Motivation
 ----------
